@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #fff;
+  background-color: #2C3E50;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin-bottom: 1.5rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #111827;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  background: #1f2937;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  color: #000;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 45%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #ffd700;
+}
+
+.about-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 700px;
+  text-align: center;
+}
+
+.about-box ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.about-box ul li {
+  margin-bottom: 1.2rem;
+}
+
+.highlight-skills {
+  background-color: #ffffff;
+  color: #2C3E50;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
